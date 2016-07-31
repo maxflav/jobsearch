@@ -29,26 +29,25 @@ sites_map = {
   "i": indeed,
 }
 if len(sys.argv) < 2 or sys.argv[1] not in sites_map:
-  print "Usage:", sys.argv[0], "|".join(sorted(sites_map.keys())), "[number of pages]"
+  print "Usage:", sys.argv[0], "|".join(sorted(sites_map.keys())), "[max results]"
   exit(-1)
 
 site = sys.argv[1]
 module = sites_map[sys.argv[1]]
 
-num_pages = -1
+max_results = -1
 if len(sys.argv) > 2:
-  num_pages = int(sys.argv[2])
+  max_results = int(sys.argv[2])
 
 filter_words = open('filter_words', 'r').read().splitlines()
 ignore_links = open('ignore_links', 'r').read().splitlines()
 
 offset = 0
-page = 0
+num_results = 0
 
 while True:
-  if num_pages >= 0 and page >= num_pages:
+  if max_results >= 0 and num_results > max_results:
     break
-  page += 1
 
   items, next_offset = module.getItems(offset)
   for item in items:
@@ -60,6 +59,10 @@ while True:
       continue
     if item['link'] in ignore_links:
       continue
+
+    num_results += 1
+    if num_results > max_results:
+      break
 
     print "*****"
     print item['title']
