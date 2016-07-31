@@ -20,11 +20,7 @@ def getItems(offset):
   if offset > 0:
     url += "&start="+str(offset)
 
-  print ""
-  print "---"
   print url
-  print "---"
-  print ""
 
   try:
    response = urllib2.urlopen(url).read()

@@ -1,101 +1,255 @@
-\b[5-9].? years experience
-\b[5-9].? years of experience
+(corporate|commercial|patent|tax|\bip) (attorn|associate|counsel|litigat|lawyer)
+\b[5-9].? (successful )?years (of )?experience
+\baig\b
+accountant
 accounting
+accounts payable
+adjuster
 administrator.*consulting
+admitted in massachusetts
+advertising law
 advisory risk
 advisory services
 analyst
 analytics
+appellate attorney
 application development
 assistant
+at least (four|five|six|seven|eight|nine|ten) years
 at least [5-9] years
 attendant
 backup administrator
 baylegal
+billing clerk
 biopharmaceutical
 biotech
 business development
+business immigration attorney
+businesslitigation
 calendar clerk
+capital market attorney
+capital markets attorney
+capital markets counsel
+career counselor
+chatbot writer
+childcare provider
 claims examiner
+claims technical review
 clinical lab
 compliance consult
 compliance specialist
 conflicts resolution
 conflicts specialist
+construction attorney
+consumer compliance counsel
+contract manager
 contract recruiter
+contracts specialist
+contracts? associate
+contracts? attorney
+coordinate attorney participation
 coordinator
+copyright department attorney
+corp compliance officer
+corporate banking
+corporate.business attorney
+counsel.? corporate
+court interpreter
+court reporter
+credit representative
+criminal
+customer service
+customer support
 data analysis
 data entry
+data protection (senior ?)consultant
 database admin
+deputy city attorney
+development associate
+development director
+digital solutions job
+director legal.?.?.?litigation
+director of adr 
+director of external relations
+director of meetings
+director.? privacy
+docket clerk
 document acquisition
 document review attorney
 document scanner
+edata attorney
 editor
+electronic discovery manager
+endangered species act
+energy law
+engagement manager
 engineer
+entertainment and licensing attorney
+environmental attorney
 environmental project manager
+equal rights advocates
 escrow processor
+estate planning
+events specialist
+eviction defense
 evil divorce lawyer
+executive director
+family court counsel
+family law
 file clerk
 film asset
 financ
+four (4) years of relevant
 french document review
+fundraising campaign associate
+gilead
+global trade solutions
+gopro
+government relations
+hardware attorney
 head baker
+head of ip\b
+health care attorney
+health center counsel
+healthcare attorney
 housing
+hr generalist
 human resources
+immigrant justice
+immigration case manager
+immigration specialist
 incubator program
+individual gifts officer
+individual giving manager
 injury
 insurance
+intellectual property
 investment banking
+investment management
+ip licensing and business strategy
 japanese
+judicial clerk only
 jury consultant
+kids in need of defense
 laboratory
 land surveyor
+land use attorney
+law clerk
 law enforcement
 legal discovery
-legal intern
+legal extern\b
+legal intern\b
 legal messenger
 legal operations
+legal recruiter
 legal recruiting
+legal research attorney
 legal support specialist
 library services
+life sciences attorney
+loan officer
+loan specialist
+m&a attorney
+m&a diligence
+mailroom clerk
+maintenance technician
+managing attorney
 managing director
+marketing manager
 materials supervis
+member support specialist
+municipal attorney
+muslim advocates
+nanny
+natural resources associate
+neighborhood law corps attorney
+nurse
+office administrator
 office clerk
+office manager
 omissions
+open source counsel
 operations manager
 paralegal
+parker .?.?.? lynch
 part time immigration
+patent agent
+patent docketing
+patent prosecution
+payroll manager
 performer
 personnel clerk
 pharmaceuticals
+practice management specialist
+privacy & ecommerce
 privacy specialist
 procurement
 produce clerk
+product counsel
+product manager
+product partnerships
 professor
+public affairs specialist
+public interest associate
+public relations
 public util
+racial justice
+real estate
 receptionist
+recruiting manager
 regional recruiter
-registered nurse
+regional vice-president
+rehabilitation specialist
+release manager
+retirement attorney
+retirement specialist
+review attorney annotators
 safety professional
 sales
 scheduling clerk
 secretar
 senior associate
 senior attorney iii
+senior claims
 senior consular
 senior counsel
+senior director
+senior electronic discovery attorney
 senior job captain
+senior legal counsel
 senior manager
+senior project manager
 services manager
+site acquisition associate
 social worker
+software developer
 software licens
+sourcing associate
 spanish
 staffing firm
+strategic partner
 student law clerk
+substance abuse
+supply chain department
 support manager
+sutter health
 systems? admin
+tax professional
+tax services
 technical suppor
+technology attorney
 technology specialist
+technology transactions attorney
+ticket crushers
+traffic law
+training program case manager
+travel manager
 turkish
+ui designer
 underwriter
+vice president.?.? general counsel
+visa inc
+vocational counselor
+wc defense
 word processor
+workers..?comp

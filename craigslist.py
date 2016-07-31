@@ -20,6 +20,7 @@ def getItems(offset):
     url += "&s="+str(offset)
 
   print url
+  
   response = urllib2.urlopen(url).read()
   response = removeBadStuff(response)
   tree = ElementTree.fromstring(response)
