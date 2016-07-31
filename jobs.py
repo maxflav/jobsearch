@@ -14,14 +14,6 @@ MUST_HAVE_ONE = [
   "\\bcounsels?\\b",
 ]
 
-# search queries:
-# for craigslist, empty string ""
-# for monster, try:
-#   "employment+labor",
-#   "labor+law",
-#   "lawyer",
-#   "attorney"
-
 def textContainsAny(text, words):
   for word in words:
     if re.search(word, text, re.IGNORECASE) != None:
