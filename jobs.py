@@ -1,5 +1,5 @@
 import craigslist, monster, indeed
-import re
+import re, sys
 
 MUST_HAVE_ONE = [
   "\\battorneys?\\b",
@@ -28,12 +28,37 @@ def textContainsAny(text, words):
       return True
   return False
 
+sites_map = {
+  "craigslist": craigslist,
+  "c": craigslist,
+  "monster": monster,
+  "m": monster,
+  "indeed": indeed,
+  "i": indeed,
+}
+if len(sys.argv) < 2 or sys.argv[1] not in sites_map:
+  print "Usage:", sys.argv[0], "|".join(sorted(sites_map.keys())), "[number of pages]"
+  exit(-1)
+
+site = sys.argv[1]
+module = sites_map[sys.argv[1]]
+
+num_pages = -1
+if len(sys.argv) > 2:
+  num_pages = int(sys.argv[2])
+
 filter_words = open('filter_words', 'r').read().splitlines()
 ignore_links = open('ignore_links', 'r').read().splitlines()
 
 offset = 0
+page = 0
+
 while True:
-  items, next_offset = indeed.getItems(offset)
+  if num_pages >= 0 and page >= num_pages:
+    break
+  page += 1
+
+  items, next_offset = module.getItems(offset)
   for item in items:
     text = (item['description'] + item['title'])
 
