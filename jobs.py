@@ -12,6 +12,7 @@ MUST_HAVE_ONE = [
   "\\blitigators?\\b",
   "\\blitigates?\\b",
   "\\bcounsels?\\b",
+  "\\bl ?\\W ?e\\b",    # "L & E", "L+E" etc.
 ]
 
 def textContainsAny(text, words):
