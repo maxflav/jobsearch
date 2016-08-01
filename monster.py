@@ -1,7 +1,6 @@
 import urllib2
 from pyquery import PyQuery
 import json
-import html
 
 MONSTER_URL = "http://www.monster.com/jobs/search/?q=attorney&where=San-Francisco__2C-CA&rad=20&sort=rv.dt.di"
 

@@ -1,4 +1,4 @@
-import craigslist, monster, indeed
+import craigslist, monster, indeed, linkedin
 import re, sys
 
 MUST_HAVE_ONE = [
@@ -29,6 +29,8 @@ sites_map = {
   "m": monster,
   "indeed": indeed,
   "i": indeed,
+  "linkedin": linkedin,
+  "l": linkedin,
 }
 if len(sys.argv) < 2 or sys.argv[1] not in sites_map:
   print "Usage:", sys.argv[0], "|".join(sorted(sites_map.keys())), "[starting offset] [max results]"

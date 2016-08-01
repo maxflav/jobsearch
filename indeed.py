@@ -1,7 +1,5 @@
 import urllib2
 from pyquery import PyQuery
-import json
-import html
 
 INDEED_URL = "http://www.indeed.com/jobs?q=%28lawyer+or+attorney%29&l=San+Francisco%2C+CA&radius=20&sort=date"
 
