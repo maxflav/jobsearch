@@ -1,4 +1,4 @@
-(corporate|commercial|patent|tax|\bip) (attorn|associate|counsel|litigat|lawyer)
+(corporate|commercial|patent|tax|\bip|trademark) (attorn|associate|counsel|litigat|lawyer)
 \b[5-9].? (successful )?years (of )?experience
 \baig\b
 accountant
@@ -14,11 +14,16 @@ analyst
 analytics
 appellate attorney
 application development
+\bIP Technology
 assistant
 at least (four|five|six|seven|eight|nine|ten) years
 at least [5-9] years
 attendant
+Advertising . Promotions
+minimum (of )?[5-9].? years
 backup administrator
+health care
+Advertising Attorney
 baylegal
 billing clerk
 biopharmaceutical
